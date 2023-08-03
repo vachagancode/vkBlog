@@ -1,0 +1,16 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/new_entry.css' %}">
+{% endblock css %}
+
+{% block content %}
+
+<form action="{% url 'blogs:new_entry' %}" method="post" class="entry-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button name="submit" class="submit-btn">Add The Entry</button>
+</form>
+
+{% endblock content %}

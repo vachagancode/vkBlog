@@ -1,0 +1,31 @@
+/* Styles for the Admin Message and Login Button */
+.admin-message {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.login-as-admin {
+    text-decoration: none;
+    padding: 14px 30px 14px 30px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: #45b34b;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.login-as-admin:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

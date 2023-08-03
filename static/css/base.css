@@ -1,0 +1,77 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333333;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #666666;
+    margin-left: 20px;
+    transition: color 0.2s ease-in-out;
+}
+
+.navigation a:hover {
+    color: #000000;
+}
+
+/* Your specific styles for the content blocks go here */
+
+/* Example styles for blog post cards */
+.post-card {
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-author {
+    color: #999999;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+/* Styles for the Footer */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+

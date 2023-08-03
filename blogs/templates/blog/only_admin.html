@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/only_admin.css' %}">
+{% endblock css %}
+
+{% block content %}
+<div class="container">
+    <p class="admin-message">Only The Admin Of The Site Is Able To Add & Change Entries ._.</p>
+    <a href="admin/" class="login-as-admin">Login As An Admin</a>
+</div>    
+{% endblock content %}

@@ -1,0 +1,28 @@
+/* Styles for the Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.welcome-section a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.welcome-section a:hover {
+    background-color: #45a049;
+}

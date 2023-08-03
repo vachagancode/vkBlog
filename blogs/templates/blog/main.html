@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/main.css/' %}">
+{% endblock css %}
+{% block content %}
+<div class="blog-content">
+
+    {% for entry in entries %}
+        <div class="entry">
+            <p class="title">{{ entry.title }}</p>
+            <p class="description">{{ entry.description }}</p>
+            <p class="date_added">{{ entry.date_added }}</p>
+            <button class="like">Like</button>
+            <button class="dislike">DisLike</button>
+        </div>
+    {% endfor %}
+</div>
+{% endblock content %}
